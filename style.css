@@ -1,10 +1,10 @@
 <style>@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 
 </style>.main {
-    width: 1440px;
+    width: 100vw;
     height: 80px;
     background-color: #FFFFFF;
-    
+
 }
 
 .mainlogo>img {
@@ -15,7 +15,7 @@
     line-height: 17px;
 }
 
-.mainlogo>img:hover{
+.mainlogo>img:hover {
     cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
     padding-inline: 10px;
 }
 
-.navbar:hover{
+.navbar:hover {
     cursor: pointer;
 }
 
@@ -49,6 +49,107 @@
     top: -12px;
 }
 
-.udhaylogo>img:hover{
+.udhaylogo>img:hover {
     cursor: pointer;
+}
+
+.hero-section-1 {
+    width: 100vw;
+    height: 2688px;
+    background: #FFF;
+}
+
+.slices>img {
+    position: relative;
+    left: 88px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1264px;
+    height: 355px;
+    border-radius: 30px;
+}
+
+/*.first {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 82px;
+    margin-top: 80px;
+    text-overflow: initial;
+}
+
+.second {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 127%;
+    position: absolute;
+}
+
+.third {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 127%;
+    position: absolute;
+}*/
+
+.sub-heading1>p {
+    width: 212px;
+    height: 33px;
+    color: #252525;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 88px;
+    margin-top: 23px;
+}
+
+.search {
+    display: flex;
+    width: 1225px;
+    height: 42px;
+    padding: 12px;
+    align-items: center;
+    border-radius: 2px 0px 0px 2px;
+    background: #F3F3F3;
+    position: relative;
+    left: 88px;
+    margin-top: 23px;
+}
+
+.search>img {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 2px;
+
+}
+
+.search>div {
+    color: #ADADAD;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left: 7px;
+}
+
+.bar{
+    display: flex;
+width: 55px;
+height: 42px;
+padding: 21px;
+justify-content: center;
+align-items: center;
+gap: 9px;
+flex-shrink: 0;
+border-radius: 0px 2px 2px 0px;
+background: #509E2F;
+position: relative;
+left: 1297px;
 }
