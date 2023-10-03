@@ -1,11 +1,54 @@
-.navbar{
+<style>@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+</style>.main {
     width: 1440px;
     height: 80px;
     background-color: #FFFFFF;
-    display: flex;
+    
 }
 
-.logo{
-width: 96px;
-height: 46px;
+.mainlogo>img {
+    width: 96px;
+    height: 46px;
+    position: relative;
+    left: 135px;
+    line-height: 17px;
+}
+
+.mainlogo>img:hover{
+    cursor: pointer;
+}
+
+.navbar {
+    position: relative;
+    display: inline-flex;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    left: 980px;
+    line-height: 16px;
+    margin-top: 20px;
+    padding-inline: 10px;
+}
+
+.navbar:hover{
+    cursor: pointer;
+}
+
+.udhaylogo>img {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    position: relative;
+    top: -12px;
+}
+
+.udhaylogo>img:hover{
+    cursor: pointer;
 }
